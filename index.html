@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylsheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script src="https://www.gstatic.com/firebasejs/5.1.0/firebase.js"></script>
+    <title>Pokemon!</title>
+</head>
+
+<body>
+
+ <!-- Modal -->
+ <div id="myModal" class="modal show" role="dialog">
+    <div class="modal-dialog">
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title">Please tell me your User Name</h4>
+        </div>
+        <div class="modal-body">
+            <input id="nameSubmission" type="text" autocomplete="off">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default closebtn" data-dismiss="modal">Submit</button>
+        </div>
+      </div>
+  
+    </div>
+  </div>
+
+    <div class="row">
+        <div class="col-lg-4" id="playerArea">
+            <div class="container-fluid playerinfoBackgroud">
+                
+            </div>
+        </div>
+        <div class="col-lg-4" id="pokemonSelectionArea">
+            <div class="SelectionArea">
+                <img src="assets/images/chimchar.png" id="test"></img>
+            </div>
+            <div class="SelectionArea">
+                <img src="assets/images/piplup.png" id="test"></img>
+            </div>
+            <div class="SelectionArea">
+                <img src="assets/images/turtwig.png" id="test"></img>
+            </div>
+            
+
+        </div>
+        <div class="col-lg-4" id="enemyArea">
+            <div class="container-fluid playerinfoBackgroud">
+
+            </div>
+        <div>
+        </div>
+    </div>
+</body>
+
+<script src="assets/javascript/game.js"></script>
+
+</html>

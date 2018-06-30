@@ -1,0 +1,24 @@
+#test
+{
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.SelectionArea
+{
+    height: 10%;
+}
+
+.playerinfoBackgroud
+{
+    background: whitesmoke;
+    height: 30%;
+}
+
+body
+{
+    background: black;
+    background-image: url(../images/background.jpg);
+}
