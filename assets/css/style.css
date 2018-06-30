@@ -1,24 +1,72 @@
-#test
+.charArea
 {
     background-color: transparent;
     width: 100%;
     height: 100%;
     object-fit: contain;
+    border-radius: 5px;
+    background: darkblue;
 }
 
 .SelectionArea
 {
     height: 10%;
 }
+#pokemonSelectionArea
+{
+    height: auto;
+    width: auto;
+}
 
-.playerinfoBackgroud
+#player1infoBackground
+{
+    background-image: url(../images/foreground2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 40%;
+}
+
+#player2infoBackground
+{
+    background-image: url(../images/foreground2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 40%;
+}
+
+.playerinfoForeGround
 {
     background: whitesmoke;
-    height: 30%;
+    height: 100%;
+}
+
+.space-top-divider
+{
+    height: 10%;
+}
+
+.space-middle-divider
+{
+    height: 5%;
+}
+
+.space-bottom-divider
+{
+    height: 50%;
+}
+
+#InstructionText
+{
+    color: white;
+    visibility: hidden;
 }
 
 body
 {
     background: black;
     background-image: url(../images/background.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    /* height: auto;
+    width: auto; */
 }

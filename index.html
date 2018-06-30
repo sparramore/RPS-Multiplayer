@@ -16,49 +16,132 @@
 
 <body>
 
- <!-- Modal -->
- <div id="myModal" class="modal show" role="dialog">
-    <div class="modal-dialog">
-      <!-- Modal content-->
-      <div class="modal-content">
-        <div class="modal-header">
-          <h4 class="modal-title">Please tell me your User Name</h4>
+    <!-- Modal -->
+    <div id="myModal" class="modal show" role="dialog">
+        <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Please tell me your User Name</h4>
+                </div>
+                <div class="modal-body">
+                    <input id="nameSubmission" type="text" autocomplete="off">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default closebtn" data-dismiss="modal">Submit</button>
+                </div>
+            </div>
+
         </div>
-        <div class="modal-body">
-            <input id="nameSubmission" type="text" autocomplete="off">
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default closebtn" data-dismiss="modal">Submit</button>
-        </div>
-      </div>
-  
     </div>
-  </div>
 
     <div class="row">
         <div class="col-lg-4" id="playerArea">
-            <div class="container-fluid playerinfoBackgroud">
-                
+            <div class="container-fluid rounded" id="player1infoBackground">
+
+                <div class="row space-top-divider">
+                    <div class="col-lg-12"></div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="container-fluid playerinfoForeGround rounded">
+                            <p>test</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-8"></div>
+                </div>
+
+                <div class="row space-middle-divider">
+                    <div class="col-lg-12"></div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="container-fluid playerinfoForeGround rounded">
+                            <p>test</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-8"></div>
+                </div>
+
+                <div class="row space-middle-divider">
+                    <div class="col-lg-12"></div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="container-fluid playerinfoForeGround rounded">
+                            <p>test</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-8"></div>
+                </div>
+
+                <div class="row space-bottom-divider">
+                    <div class="col-lg-12"></div>
+                </div>
+
+                <p id="InstructionText"></p>
             </div>
         </div>
+
         <div class="col-lg-4" id="pokemonSelectionArea">
-            <div class="SelectionArea">
-                <img src="assets/images/chimchar.png" id="test"></img>
+            <div class="SelectionArea" data-id="0">
+                <img src="assets/images/chimchar.png"  class="charArea"></img>
             </div>
-            <div class="SelectionArea">
-                <img src="assets/images/piplup.png" id="test"></img>
+            <div class="SelectionArea" data-id="1">
+                <img src="assets/images/piplup.png"  class="charArea"></img>
             </div>
-            <div class="SelectionArea">
-                <img src="assets/images/turtwig.png" id="test"></img>
+            <div class="SelectionArea" data-id="2"s>
+                <img src="assets/images/turtwig.png"  class="charArea"></img>
             </div>
-            
+
 
         </div>
-        <div class="col-lg-4" id="enemyArea">
-            <div class="container-fluid playerinfoBackgroud">
 
+        <div class="col-lg-4" id="playerArea">
+            <div class="container-fluid rounded" id="player2infoBackground">
+
+                <div class="row space-top-divider">
+                    <div class="col-lg-12"></div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="container-fluid playerinfoForeGround rounded">
+                            <p>test</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-8"></div>
+                </div>
+
+                <div class="row space-middle-divider">
+                    <div class="col-lg-12"></div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="container-fluid playerinfoForeGround rounded">
+                            <p>test</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-8"></div>
+                </div>
+
+                <div class="row space-middle-divider">
+                    <div class="col-lg-12"></div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="container-fluid playerinfoForeGround rounded">
+                            <p>test</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-8"></div>
+                </div>
             </div>
-        <div>
         </div>
     </div>
 </body>
